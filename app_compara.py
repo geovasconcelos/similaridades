@@ -63,7 +63,7 @@ def main():
         # Escolhendo colunas para mostrar no resultado
         colunas_resultado = st.multiselect("Selecione as colunas para mostrar no resultado:", df.columns)
 
-        if st.button("Calcular Similaridade"):
+        if st.button("Visualizar Contratos"):
             if not colunas_resultado:
                 st.warning("Selecione pelo menos uma coluna para mostrar no resultado.")
             else:
